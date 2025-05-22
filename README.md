@@ -23,6 +23,11 @@ Kmeans and Hierarchical Clustering to group similar objects.
 ### Hyperparameter Tuning:
 Used GridSearch and RandomizedSearch to get the best paramters for models.
 
+- Logistic Regression: 82% Accuracy
+- Decision Tree: 80% Accuracy
+- Random Forest: 84% Accuracy
+- SVM: 84% Accuracy
+
 ### Model Evaluation:
 Utilization of metrics like ROC curves and AUC scores to assess model performance.
 
