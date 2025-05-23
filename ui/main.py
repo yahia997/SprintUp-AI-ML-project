@@ -29,3 +29,36 @@ elif option == 'Dataset After Feature Selection':
   st.write(feature_selected)
 elif option == 'Dataset After Dimensionality Reduction (PCA)':
   st.write(reduced_dimension)
+
+st.markdown('''
+## 🚀 Features
+### Data Preprocessing:
+Handling missing values using different methods like iterative imputer or filling by constant value, encoding categorical variables, and feature scaling.
+
+### Feature Selection:
+Application of Recursive Feature Elimination (RFE) and Chi-Square tests to identify significant predictors. I also plotted each feature importance.
+
+### Dimensionality Reduction:
+Used PCA to preserve the most variance for Unsupervised Machine learning models.
+
+### Model Training:
+#### Supervised:
+Implementation of multiple classifiers including Logistic Regression, Random Forest, Decision Tree, and Support Vector Machine (SVM).
+
+#### UnSupervised:
+Kmeans and Hierarchical Clustering to group similar objects.
+
+### Hyperparameter Tuning:
+Used GridSearch and RandomizedSearch to get the best paramters for models.
+
+- Logistic Regression: 82% Accuracy
+- Decision Tree: 80% Accuracy
+- Random Forest: 84% Accuracy
+- SVM: 84% Accuracy
+
+### Model Evaluation:
+Utilization of metrics like ROC curves and AUC scores to assess model performance.
+
+### Model Persistence:
+Saving trained models using joblib for future inference.
+''')
